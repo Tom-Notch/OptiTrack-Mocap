@@ -1,4 +1,4 @@
 [submodule "src/natnet_ros_cpp"]
 	path = src/natnet_ros_cpp
 	url = git@github.com:L2S-lab/natnet_ros_cpp.git
-    branch = v1.1.1
+	branch = v1.1.1
