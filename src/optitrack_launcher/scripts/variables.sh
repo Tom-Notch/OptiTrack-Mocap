@@ -14,10 +14,10 @@ export AVAILABLE_CORES=$(($(nproc) - 1))
 export PLATFORM=linux/amd64
 
 export DOCKER_USER=theairlab
-export IMAGE_NAME=tartan-slam
-export IMAGE_TAG=focal-noetic
+export IMAGE_NAME=optitrack-ros
+export IMAGE_TAG=melodic
 
-export CONTAINER_NAME=$IMAGE_NAME
+export CONTAINER_NAME="$IMAGE_NAME"
 export CONTAINER_HOME_FOLDER=/root
 
 HOST_UID=$(id -u)
