@@ -11,6 +11,8 @@
 export XAUTH=/tmp/.docker.xauth
 export AVAILABLE_CORES=$(($(nproc) - 1))
 
+export PLATFORM=linux/amd64
+
 export DOCKER_USER=theairlab
 export IMAGE_NAME=tartan-slam
 export IMAGE_TAG=focal-noetic

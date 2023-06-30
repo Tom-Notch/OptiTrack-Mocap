@@ -33,7 +33,7 @@ docker run \
 	--name "$CONTAINER_NAME" \
 	--hostname "$(hostname)" \
 	--privileged \
-	--platform=linux/amd64 \
+	--platform "$PLATFORM" \
 	--cpus "$AVAILABLE_CORES" \
 	--gpus all \
 	--runtime nvidia \
